@@ -46,6 +46,8 @@ public class BaseTest {
 		}
 		
 		return driver;
+		System.out.println("Result Check5" +verifyOrder);
+		System.out.println("Result Check5" +verifyOrder);
 
 	}
 

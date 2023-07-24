@@ -102,6 +102,12 @@ public class StandAloneTest {
 		Boolean verifyOrder = orderPage.verifyOrderDisplay(productName);
 		System.out.println(verifyOrder);
 		System.out.println("Result Check" +verifyOrder);
+		System.out.println("Result Check" +verifyOrder);
+		System.out.println("Result Check1" +verifyOrder);
+		System.out.println("Result Check2" +verifyOrder);
+		System.out.println("Result Check3" +verifyOrder);
+		System.out.println("Result Check4" +verifyOrder);
+		System.out.println("Result Check5" +verifyOrder);
 		Assert.assertTrue(verifyOrder);
 		driver.close();
 	}
