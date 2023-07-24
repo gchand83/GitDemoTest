@@ -108,6 +108,8 @@ public class StandAloneTest {
 		System.out.println("Result Check3" +verifyOrder);
 		System.out.println("Result Check4" +verifyOrder);
 		System.out.println("Result Check5" +verifyOrder);
+		System.out.println("Result Check6" +verifyOrder);
+		System.out.println("Result Check7" +verifyOrder);
 		Assert.assertTrue(verifyOrder);
 		driver.close();
 	}
