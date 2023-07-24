@@ -17,6 +17,7 @@ import gouthamacademy.pageobjects.LandingPage;
 import gouthamacademy.pageobjects.OrderPage;
 import gouthamacademy.pageobjects.ProductCatalogue;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class StandAloneTest {
 
@@ -99,6 +100,8 @@ public class StandAloneTest {
 		
 		OrderPage orderPage = cartPage.goToOrdersPage();
 		Boolean verifyOrder = orderPage.verifyOrderDisplay(productName);
+		System.out.println(verifyOrder);
+		System.out.println("Result Check" +verifyOrder);
 		Assert.assertTrue(verifyOrder);
 		driver.close();
 	}
